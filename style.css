@@ -2,24 +2,24 @@
     src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
     font-family: Suisse;
     font-weight: normal;
-}
+  }
 
-@font-face {
+  @font-face {
     src:
-        url(
-            https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff
+ url(
+https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff
   );
     font-family: Suisse;
     font-weight: bold;
-}
+  }
 
-html {
+  html {
     margin: 0;
     height: 100%;
     -webkit-font-smoothing: antialiased;
-}
+  }
 
-body {
+  body {
     position: relative;
     margin: 0 auto;
     padding: 36px;
@@ -29,21 +29,21 @@ body {
     font-family: Suisse;
     color: white;
     background-color: #323131;
-}
+  }
 
-.header {
+  .header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-}
+  }
 
-.logo {
+  .logo {
     margin: 0;
     font-weight: bold;
     font-size: 24px;
-}
+  }
 
-.button {
+  .button {
     border: 1px solid white;
     padding-top: 10px;
     width: 130px;
@@ -53,28 +53,28 @@ body {
     text-align: center;
     transition: opacity 0.2s;
     cursor: pointer;
-}
+  }
 
-.button:hover {
+  .button:hover {
     opacity: 0.5;
-}
+  }
 
-.image {
+  .image {
     display: block;
     margin: 60px auto 50px;
     width: 80%;
-}
+  }
 
-.advice {
+  .advice {
     margin-bottom: 70px;
     font-weight: bold;
     font-size: 42px;
     line-height: 1.1;
-}
+  }
 
-.footer {
+  .footer {
     position: absolute;
     bottom: 36px;
     margin: 0;
     font-size: 16px;
-}
+  }
