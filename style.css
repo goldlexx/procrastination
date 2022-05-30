@@ -1,80 +1,80 @@
 @font-face {
-    src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
-    font-family: Suisse;
-    font-weight: normal;
-  }
+  src: url(https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Book.woff);
+  font-family: Suisse;
+  font-weight: normal;
+}
 
-  @font-face {
-    src:
+@font-face {
+  src:
  url(
 https://code.s3.yandex.net/web-code/fonts/SuisseIntl-Bold.woff
-  );
-    font-family: Suisse;
-    font-weight: bold;
-  }
+);
+  font-family: Suisse;
+  font-weight: bold;
+}
 
-  html {
-    margin: 0;
-    height: 100%;
-    -webkit-font-smoothing: antialiased;
-  }
+html {
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
 
-  body {
-    position: relative;
-    margin: 0 auto;
-    padding: 36px;
-    min-height: 100%;
-    max-width: 540px;
-    box-sizing: border-box;
-    font-family: Suisse;
-    color: white;
-    background-color: #323131;
-  }
+body {
+  position: relative;
+  margin: 0 auto;
+  padding: 36px;
+  min-height: 100%;
+  max-width: 540px;
+  box-sizing: border-box;
+  font-family: Suisse;
+  color: white;
+  background-color: #323131;
+}
 
-  .header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
 
-  .logo {
-    margin: 0;
-    font-weight: bold;
-    font-size: 24px;
-  }
+.logo {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+}
 
-  .button {
-    border: 1px solid white;
-    padding-top: 10px;
-    width: 130px;
-    height: 40px;
-    box-sizing: border-box;
-    font-size: 14px;
-    text-align: center;
-    transition: opacity 0.2s;
-    cursor: pointer;
-  }
+.button {
+  border: 1px solid white;
+  padding-top: 10px;
+  width: 130px;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
 
-  .button:hover {
-    opacity: 0.5;
-  }
+.button:hover {
+  opacity: 0.5;
+}
 
-  .image {
-    display: block;
-    margin: 60px auto 50px;
-    width: 80%;
-  }
+.image {
+  display: block;
+  margin: 60px auto 50px;
+  width: 80%;
+}
 
-  .advice {
-    margin-bottom: 70px;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 1.1;
-  }
+.advice {
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.1;
+}
 
-  .footer {
-    position: absolute;
-    bottom: 36px;
-    margin: 0;
-    font-size: 16px;
-  }
+.footer {
+  position: absolute;
+  bottom: 36px;
+  margin: 0;
+  font-size: 16px;
+}
