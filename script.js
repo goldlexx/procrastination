@@ -1,9 +1,12 @@
-let phrases = ['отправить другу смешную гифку',
+let phrases = [
+    'отправить другу смешную гифку',
     'посмотреть скидки на авиабилеты',
     'разобраться, о чём поют рэперы',
     'Юрий Дудь',
     'расставить книги на полке по цвету',
-    'читать про зарплаты в Сан-Франциско'];
-console.log(phrases[0]);
-console.log(phrases[2]);
-console.log(phrases[4]);
+    'читать про зарплаты в Сан-Франциско'
+  ];
+  let randIndex=Math.random()*6;
+  console.log (randIndex);
+  console.log (phrases[randIndex]);
+  
