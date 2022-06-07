@@ -4,10 +4,15 @@ let phrases = [
   'разобраться, о чём поют рэперы',
   'Юрий Дудь',
   'расставить книги на полке по цвету',
-  'читать про зарплаты в Сан-Франциско'
+  'читать про зарплаты в Сан-Франциско',
 ];
-function getRandomElement() {
-let randIndex=Math.floor(Math.random() * phrases.length);
-console.log(randIndex);
-console.log(phrases[randIndex]);
+
+function getRandomElement(arr) {
+  let randIndex = Math.floor(Math.random() * arr.length);
+  return arr[randIndex];
 }
+let button = document.querySelector('.button');
+let advice = document.querySelector('.advice');
+let phrase = document.querySelector('.phrase');
+let image = document.querySelector('.image');
+phrase.textContent = getRandomElement(phrases);
