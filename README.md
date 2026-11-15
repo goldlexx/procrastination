@@ -1,25 +1,19 @@
-# Обложка для альбома 
+# Procrastinate
 
-## Описание:
+A small interactive page that suggests a random idea for procrastination.
 
-"Procrastinate" - это одностраничный сайт, который помогает подобрать идеи для отменной прокрастинации. На данном сайте происходит знакомство с языком программирования Javascript в рамках обучения на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/).
+## Features
 
-| **GithHub Pages** | [Procrastinate на GitHub Pages](https://goldlexx.github.io/procrastination/) |
-| ----------------- | -------------------------------------------------------------------- |
+- Selects a random activity when the visitor presses the button
+- Updates the suggestion and its image
 
+## Technologies
 
-## Инструкция по установке:
+- HTML
+- CSS
+- Vanilla JavaScript
 
-```
-git clone https://github.com/goldlexx/procrastination.git
-```
-Запустите локальный сервер разработки с функцией перезагрузки в реальном времени для статических и динамических страниц - [How do you set up a local testing server? (MDN web docs)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
+## Run locally
 
-
-
-
-
-
-
-
-
+This is a static project with no `package.json` or build script. Serve the
+repository root with a static web server and open `index.html`.
