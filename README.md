@@ -17,3 +17,13 @@ A small interactive page that suggests a random idea for procrastination.
 
 This is a static project with no `package.json` or build script. Serve the
 repository root with a static web server and open `index.html`.
+
+## Tests
+
+Run the interaction tests with Node.js:
+
+```sh
+node --test
+```
+
+The tests cover the initial suggestion, random selection, image update, and long-text sizing.
