@@ -1,29 +1,31 @@
-# Procrastinate
+<div align="center">
 
-A small interactive page that suggests a random idea for procrastination.
+# 🧠 Procrastinate
 
-## Features
+Небольшой интерактивный проект со случайными идеями для отдыха от задач.
 
-- Selects a random activity when the visitor presses the button
-- Updates the suggestion and its image
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?logo=javascript&logoColor=111)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-222?logo=github)](https://goldlexx.github.io/procrastination/)
 
-## Technologies
+</div>
 
-- HTML
-- CSS
-- Vanilla JavaScript
+## Возможности
 
-## Run locally
+- выбор случайной активности;
+- обновление текста и иллюстрации;
+- управление с клавиатуры.
 
-This is a static project with no `package.json` or build script. Serve the
-repository root with a static web server and open `index.html`.
+## Демонстрация
 
-## Tests
+[Открыть проект](https://goldlexx.github.io/procrastination/)
 
-Run the interaction tests with Node.js:
+## Запуск
 
-```sh
-node --test
-```
+Откройте `index.html` в браузере. Зависимости и сборка не нужны.
 
-The tests cover the initial suggestion, random selection, image update, and long-text sizing.
+## Технологии
+
+HTML, CSS, JavaScript.
+
+## Лицензия
+
+Лицензия в репозитории не указана.
