@@ -1,31 +1,23 @@
 <div align="center">
 
-# 🧠 Procrastinate
+# 🎲 Procrastinate.
 
-Небольшой интерактивный проект со случайными идеями для отдыха от задач.
+**Генератор идей для тех, кто ищет, чем заняться вместо работы.**
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?logo=javascript&logoColor=111)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-222?logo=github)](https://goldlexx.github.io/procrastination/)
+![JavaScript](https://img.shields.io/badge/JavaScript-806900) ![CSS](https://img.shields.io/badge/CSS-5546A6)
+
+[Открыть страницу](https://goldlexx.github.io/procrastination/)
 
 </div>
 
-## Возможности
+Кнопка **«Ещё идея»** меняет и подпись, и иллюстрацию. Пары выбраны из подготовленного списка, поэтому варианты могут повторяться. Длинные фразы выводятся уменьшенным шрифтом, а кнопку можно активировать с клавиатуры.
 
-- выбор случайной активности;
-- обновление текста и иллюстрации;
-- управление с клавиатуры.
+![Генератор с иллюстрацией, случайной идеей и кнопкой смены](docs/interface.jpg)
 
-## Демонстрация
+## Локальный запуск
 
-[Открыть проект](https://goldlexx.github.io/procrastination/)
+Откройте `index.html` из корня репозитория в браузере.
 
-## Запуск
+## Проверка
 
-Откройте `index.html` в браузере. Зависимости и сборка не нужны.
-
-## Технологии
-
-HTML, CSS, JavaScript.
-
-## Лицензия
-
-Лицензия в репозитории не указана.
+`node --test` проверяет начальное состояние, выбор идеи, замену изображения и размер длинной подписи.
